@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desórdenes potencialmente malignos y cáncer oral</title>
+    <link rel="stylesheet" href="css/RobotoMono.css">
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/quiz.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <!--script src="js/utilities.js" type="text/javascript"></script-->
+    <script src="js/controller.js" type="text/javascript"></script>
+	
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-main w3-dark-grey w3-text-dark-grey" id="main">
+        <div class="w3-color1">
+            <div id="mbar" class="w3-container">
+            </div>
+        </div>
+        <div class="w3-container w3-margin-top">
+            <!------------------------------------------------------------------->
+			<h2 class="w3-center w3-text-color2">Evalúa tus conocimientos</h2>
+			<div class="spacer w3-text-white"><p class="w3-center" style="font-style:italic;">Cada pregunta te presenta  cuatro opciones de respuesta, elije la que consideres correcta, intenta no fallar y obtén la máxima puntuación.</p>
+			<div class="w3-center w3-text-color2" style="font-size:18px;">¡MANOS A LA OBRA!<hr></div>  
+<audio autoplay><source src="audios/cuestionario.mp3" type="audio/mpeg"></audio></div>
+
+			<div id="navContent" class="w3-container">
+				<div id="game1"></div>
+				<div id="game2"></div>
+			</div>
+
+			
+			<!------------------------------------------------------------------->
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+        });
+    </script>
+</body>
+
+</html>
