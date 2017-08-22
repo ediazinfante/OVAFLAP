@@ -3,10 +3,9 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="description" content="Objeto Virtual de Aprendizaje apropiación de las consideraciones y el tratamiento temprano de niños con Labio y Paladar Hendido">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Desórdenes potencialmente malignos y cáncer oral</title>
-    <link rel="stylesheet" href="css/RobotoMono.css">
+    <title>Labio y Paladar Hendidos</title>
     <link rel="stylesheet" href="css/odonto.css">
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -17,12 +16,14 @@
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
-    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none;width:25%" id="mySidebar" w3-include-html="html/nav.html"></div>
+    <!--div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none"  w3-include-html="html/nav.html" id="mySidebar"> </div-->
+
     <div class="w3-main" id="main">
-        <div class="w3-color1">
-            <div id="mbar" class="w3-container">
+        <!--div class="w3-color1"-->
+            <div id="mbar" class="w3-container w3-color1" w3-include-html="html/mbar.html">
             </div>
-        </div>
+        <!--/div-->
         <div class="w3-container w3-margin-top">
             <!------------------------------------------------------------------->
 
@@ -31,10 +32,7 @@
         </div>
     </div>
     <script>
-        $(document).ready(function() {
-            $('#mySidebar').load("html/nav.html");
-            $('#mbar').load("html/mbar.html");
-        });
+		w3.includeHTML();
     </script>
 </body>
 
