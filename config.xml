@@ -7,7 +7,7 @@
 
 <!-- versionCode is optional and Android only -->
   <preference name="phonegap-version" value="cli-6.5.0" />
-  <name>Labio y Paladar Hendidos</name>
+  <name>Labio y Paladar Hendido</name>
 
   <description>
       Objeto Virtual de Aprendizaje apropiación de las consideraciones y el tratamiento temprano de niños con Labio y Paladar Hendido.

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Objeto Virtual de Aprendizaje apropiación de las consideraciones y el tratamiento temprano de niños con Labio y Paladar Hendido">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Labio y Paladar Hendidos</title>
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none;width:35%" id="mySidebar" w3-include-html="html/nav.html"></div>
+
+    <div class="w3-main" id="main">
+        <div id="mbar" class="w3-container w3-color1" w3-include-html="html/mbar.html">
+        </div>
+        <div class="w3-container w3-margin-top">
+				<!--- audio ---->
+			    <div class="row w3-center">
+                    <audio controls autoplay>
+                        <source src="audios/embriología.m4a" type="audio/mpeg">
+                    </audio>
+                </div>
+		<!------------------------------------------------------------------->
+			 <div class="w3-row">
+				<h2 class="w3-text-color3">Embriológicamente ocurre…</h2>
+				 <div class="w3-container w3-border w3-large">
+					<div class="w3-left-align"><p>La boca del feto se forma durante los primeros tres meses del embarazo. Durante este tiempo, las partes del paladar superior y el labio superior normalmente se unen. Cuando esta unión no ocurre se presenta la fisura labiopalatina.</p></div>
+					<div class="w3-left-align"><p>Existen dos teorías:</p></div>
+				</div> 				
+			 </div>
+			 <div class="w3-row w3-margin-top">
+			  <div class="w3-col m6 l6 w3-cell w3-container">
+				<div class="w3-panel w3-yellow">
+				  <p>1. Propone la existencia de un error en la fusión de los extremos libres de los procesos que forman la cara y sugiere como mecanismos patogénicos un retardo o restricción de sus movimientos que evitan que estos procesos se pongan en contacto.</p>
+				  <p>&nbsp;</p>
+				</div>
+			  </div>
+			  <div class="w3-col m6 l6 w3-cell w3-container">
+				<div class="w3-panel w3-green">
+				  <p>2. Sugiere que no existen los extremos libres de los procesos faciales, sino que el centro de la cara está formado por una capa bilamelar de ectodermo, por el interior de la cual migra el mesodermo, y si esta migración no ocurre, la débil pared ectodérmica se rompe y origina una hendidura.</p>
+				</div>
+			  </div>
+			 </div>
+			 <div class="w3-row w3-margin-top">
+				  <div class="w3-col m6 l6 w3-cell w3-container">
+					<img src="img/embriologia1.png" onclick="document.getElementById('embriologia1').style.display='block'" class="hover-shadow" style="width:100%">
+					<div id="embriologia1" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+				        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+						<div class="w3-center">	<img class="w3-modal-content" src="img/embriologia1.png"></div>
+					</div>
+					<p class="w3-small">Fig.1 representación esquemática en A, de un corte frontal de la cabeza embrionario mostrando la lengua (1) en su posición vertical. En B, vista ventral de la premaxila (2), del septo nasal (3) y de los procesos palatinos (4). (según Langman).</p>
+					<p class="w3-tiny">Tomado de: 1. SADLER TW. Embriología Médica de Langman. 7.ª Edición Ed. Panamericana 1996. 2. SMITH JR. Accessory enteric formations.</p>
+				  </div>
+				  <div class="w3-col m6 l6 w3-cell w3-container">
+					<div class="w3-panel w3-yellow">
+					  <p>Durante la 4ª se forman los arcos branquiales compuestos por mesénquima, Internamente ectodermo y externamente endodermo.</p>
+					</div>
+					<div class="w3-panel w3-blue w3-margin-top">
+					  <p>El paladar primario se forma entre la 5ta y 6ta semana. A los 37 días es posible observar cinco procesos: uno frontonasal, dos maxilares y dos mandibulares que darán origen a la cara (paladar primario). (Fig. 1)</p>
+					</div>
+				  </div>
+			 </div>
+			<!------------------------------------------------------------------->
+        </div>
+    </div>
+    <script>
+		w3.includeHTML();
+    </script>
+</body>
+
+</html>
