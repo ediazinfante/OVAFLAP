@@ -1,6 +1,6 @@
 		function w3_open() {
-		  document.getElementById("main").style.marginLeft = "35%";
-		  document.getElementById("mySidebar").style.width = "35%";
+		  document.getElementById("main").style.marginLeft = "50%";
+		  document.getElementById("mySidebar").style.width = "50%";
 		  document.getElementById("mySidebar").style.display = "block";
 		  document.getElementById("openNav").style.display = 'none';
 		}
