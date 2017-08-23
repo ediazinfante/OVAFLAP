@@ -78,7 +78,7 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #009688; /* Set a background color */
+    background-color: #881438; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -91,9 +91,10 @@
 	
 /*----------- Modal Image --------*/
 .myImg {
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
+	 width: 100%;
 }
 
 .myImg:hover {opacity: 0.7;}
@@ -115,6 +116,7 @@
 
 /* Modal Content (image) */
 .modal-content {
+	border-radius: 15px;
     margin: auto;
     display: block;
     width: 80%;
@@ -314,3 +316,6 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }			
 	
+div.boxshadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

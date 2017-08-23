@@ -22,15 +22,16 @@
         <div id="mbar" class="w3-container w3-color1" w3-include-html="html/mbar.html">
         </div>
         <div class="w3-container w3-margin-top">
-				<!--- audio ---->
+				<!--- audio --->
 			    <div class="row w3-center">
                     <audio controls autoplay>
-                        <source src="audios/embriología.m4a" type="audio/mpeg">
+                        <source src="audios/embriologia.m4a" type="audio/mpeg">
                     </audio>
                 </div>
 		<!------------------------------------------------------------------->
 			 <div class="w3-row">
 				<h2 class="w3-text-color3">Embriológicamente ocurre…</h2>
+
 				 <div class="w3-container w3-border w3-large">
 					<div class="w3-left-align"><p>La boca del feto se forma durante los primeros tres meses del embarazo. Durante este tiempo, las partes del paladar superior y el labio superior normalmente se unen. Cuando esta unión no ocurre se presenta la fisura labiopalatina.</p></div>
 					<div class="w3-left-align"><p>Existen dos teorías:</p></div>
@@ -49,13 +50,10 @@
 				</div>
 			  </div>
 			 </div>
+			
 			 <div class="w3-row w3-margin-top">
 				  <div class="w3-col m6 l6 w3-cell w3-container">
-					<img src="img/embriologia1.png" onclick="document.getElementById('embriologia1').style.display='block'" class="hover-shadow" style="width:100%">
-					<div id="embriologia1" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
-				        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-						<div class="w3-center">	<img class="w3-modal-content" src="img/embriologia1.png"></div>
-					</div>
+					<img src="img/embriologia1.png" alt="Fig.1 representación esquemática en A, de un corte frontal de la cabeza embrionario mostrando la lengua (1) en su posición vertical. En B, vista ventral de la premaxila (2), del septo nasal (3) y de los procesos palatinos (4). (según Langman)." class="hover-shadow myImg" onclick="document.getElementById('myModal').style.display ='block';document.getElementById('imgModal').src = this.src;document.getElementById('caption').innerHTML = this.alt;">
 					<p class="w3-small">Fig.1 representación esquemática en A, de un corte frontal de la cabeza embrionario mostrando la lengua (1) en su posición vertical. En B, vista ventral de la premaxila (2), del septo nasal (3) y de los procesos palatinos (4). (según Langman).</p>
 					<p class="w3-tiny">Tomado de: 1. SADLER TW. Embriología Médica de Langman. 7.ª Edición Ed. Panamericana 1996. 2. SMITH JR. Accessory enteric formations.</p>
 				  </div>
@@ -68,9 +66,43 @@
 					</div>
 				  </div>
 			 </div>
-			<!------------------------------------------------------------------->
+			 <hr style="display:block;border-style:inset" class="w3-opacity">
+			 <div class="w3-row w3-margin-top">
+				  <div class="w3-col m6 l6 w3-cell w3-container">
+					<img src="img/embriologia2.png" alt="Fig.2 Esquema mostrando en A el desplazamiento caudal de la lengua(1) y en B el acercamiento de los procesos palatinos en dirección medial(2)(Según Langman)" class="hover-shadow myImg" onclick="document.getElementById('myModal').style.display ='block';document.getElementById('imgModal').src = this.src;document.getElementById('caption').innerHTML = this.alt;">
+					<p class="w3-small">Fig.2 Esquema mostrando en A el desplazamiento caudal de la lengua(1) y en B el acercamiento de los procesos palatinos en dirección medial(2)(Según Langman)</p>
+				  </div>
+				  <div class="w3-col m6 l6 w3-cell w3-container">
+					<div class="w3-panel" style="background-color:#2ed7a1">
+					  <p>El paladar secundario se forma entre la 7ma y 8va semana. También se da migración lingual. (Fig. 2)</p>
+					</div>
+				  </div>
+			 </div>			 
+			 <hr style="display:block;border-style:inset" class="w3-opacity">
+			 <div class="w3-row w3-margin-top">
+				  <div class="w3-col m6 l6 w3-cell w3-container">
+					<img src="img/embriologia3.png" alt="Fig.3 Esquema A y B evidenciando la fusión de los procesos palatinos (1) con la premaxila (2), marcando definitivamente la separación de la cavidad nasal de la bucal. La papila incisiva (3) demarca el punto donde ocurrió la fusión entre estos procesos. (Según Langman)" class="hover-shadow myImg" onclick="document.getElementById('myModal').style.display ='block';document.getElementById('imgModal').src = this.src;document.getElementById('caption').innerHTML = this.alt;">
+
+					<p class="w3-small">Fig.3 Esquema A y B evidenciando la fusión de los procesos palatinos (1) con la premaxila (2), marcando definitivamente la separación de la cavidad nasal de la bucal. La papila incisiva (3) demarca el punto donde ocurrió la fusión entre estos procesos. (Según Langman)</p>
+					<p class="w3-tiny">Tomado de: 1. SADLER TW. Embriología Médica de Langman. 7.ª Edición Ed. Panamericana 1996. 2. SMITH JR. Accessory enteric formations.</p>
+
+					</div>
+				  <div class="w3-col m6 l6 w3-cell w3-container">
+					<div class="w3-panel w3-blue">
+					  <p>Ambos paladares se fusionan entre la 10ma y 11va semana. (Fig. 3)</p>
+					</div>
+				  </div>
+			 </div>					<!------------------------------------------------------------------->
         </div>
     </div>
+	<!-- Modal image window ---->
+	<div id="myModal" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+		<span class="close w3-hover-red" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+		<img id="imgModal" class="modal-content" style="width:80%">
+		<div id="caption" class="w3-text-white w3-small"></div>
+	</div>
+	
+	<!--- Include additional code --->
     <script>
 		w3.includeHTML();
     </script>

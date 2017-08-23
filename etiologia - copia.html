@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
-
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,7 +14,6 @@
     <script src="js/sidebar.js" type="text/javascript"></script>
     <script src="js/utilities.js" type="text/javascript"></script>
 </head>
-
 <body>
     <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
     <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none;width:35%" id="mySidebar" w3-include-html="html/nav.html"></div>
@@ -23,46 +21,51 @@
     <div class="w3-main" id="main">
         <div id="mbar" class="w3-container w3-color1" w3-include-html="html/mbar.html">
         </div>
-        <div class="w3-container" w3-margin-top ">
-				<!--- audio --->
-			    <div class="row w3-center ">
-                    <audio controls autoplay>
-                        <source src="audios/etiologia.m4a " type="audio/mpeg ">
-                    </audio>
-                </div>
-			<!------------------------------------------------------------------->
-			 <div class="w3-row ">
-				<h2 class="w3-text-color3 ">Etiología</h2>
-				 <div class="w3-container w3-border w3-large">
-					<div class="w3-left-align "><p>Se han propuesto dos posibles factores:</p></div>
-				</div> 				
-			 </div>
-		     <div class="w3-row w3-margin-top ">
-			  <div class="w3-col m6 l6 w3-cell w3-container ">
-				<div class="w3-panel w3-round-xlarge" style="background-color:#ffeead">
-								<h4>Genéticos</h4>
+        <div class="w3-container" style="margin-top:25px">
+            <!------------------------------------------------------------------->
+            <div class="odo-card1" >
+                <header class="w3-container w3-color1">
+                    <h3>Etiología</h3></header>
+                <div class="odo-text">
+				    <p>Se han propuesto dos posibles factores: </p>
+					<!-- audio -->
+					<div class="row w3-center">
+						<audio controls autoplay>
+							<source src="audios/etiologia.m4a" type="audio/mpeg">
+						</audio>
+					</div>
+
+				</div>
+			</div>
+		
+			<div class="w3-row">
+				    <div class="w3-col m6 l6 w3-container w3-cell">
+				        <div class="odo-card2">
+							<header class="w3-container"><h4>Genéticos</h4></header>
+							<div class="odo-text">
 								<p>Tres categorías etiológicas:				
-									<ul class="w3-ul ">
+									<ul class="w3-ul">
 									  <li>Herencia monogenética con los siguientes patrones de transmisión: Autosómica dominante, Autosómica recesiva, Recesiva ligada a X, Dominante ligada a X y Y.</li>
 									  <li>Herencia poligénica o multifactorial</li>
 									  <li>Aberraciones cromosómicas</li>
 									</ul>
 								</p>
-				</div>
-			  </div>
-			  <div class="w3-col m6 l6 w3-cell w3-container ">
-				<div class="w3-panel w3-round-xlarge" style="background-color:#eca1a6">
-							<h4>Ambientales</h4>
-
+							</div>
+						</div>
+				    </div>
+				    <div class="w3-col m6 l6 w3-container w3-cell">
+						<div class="odo-card2">
+							<header class="w3-container"><h4>Ambientales</h4></header>
+							<div class="odo-text">
 								<p>Tres grandes categorías: </p>
 								<ul><li>físicas,</li><li>químicas y</li><li>biológicas;</li></ul><p>y a estos factores ambientales, por alterar el desarrollo embriológico produciendo malformaciones, se les ha llamado teratógenos.</p>
 								<p>&nbsp;</p>
+							</div>
+						</div>
+					</div>
+			</div>
 
-				</div>
-			  </div>
-			 </div>
-
-	<!------------------------------------------------------------------->
+			<!------------------------------------------------------------------->
         </div>
     </div>
     <script>
