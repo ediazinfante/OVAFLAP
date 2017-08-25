@@ -1,12 +1,200 @@
 {"quizlist":[
-  
+
 	{
-	"question":"¿Con qué se relaciona la aparición de fibrosis oral submucosa?",
-	"option1":"Trastorno endocrino",
-	"option2":"Alcoholismo",
-	"option3":"Exposición solar",
-	"option4":"Tabaquismo"
+	"question":"1. ¿En qué semanas del desarrollo embriológico del feto se forman los arcos branquiales?",
+	"option1":"4ta y 5ta semana",
+	"option2":"1era y 2da semana",
+	"option3":"5ta y 6ta semana",
+	"option4":"8va y 9na semana",
+	"type":0,
+	"photo":" ",
+	"justify":" "
+	},
+	{
+	"question":"2. ¿Qué segmentos forman la premaxila?",
+	"option1":"nasales y paladar primario",
+	"option2":"frontonasal y maxilar",
+	"option3":"paladar primario y maxilar",
+	"option4":"ninguna de las anteriores",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+	{
+	"question":"3. ¿En qué semana de desarrollo embrionario es posible observar una fisura ya establecida?",
+	"option1":"Decima semana",	
+	"option2":"Quinta semana",
+	"option3":"Cuarta semana",
+	"option4":"Sexta semana",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+	{
+	"question":"4. De los siguientes enunciados, elija cual corresponde a la etiología de la Fisura de labio y paladar hendido.",
+	"option1":"La teoría causal que inevitablemente resulta en la malformación es la 'multifactorial', que incluye las variantes genéticas y ambientales.",
+	"option2":"Estrés emocional como principal factor de riesgo.",
+	"option3":"El uso de las drogas anticonvulsionantes, las infecciones víricas, la epilepsia, radiaciones ionizantes, deficiencias nutricionales, alcoholismo y tabaco determinan la presencia de la fisura de labio y /o paladar.",
+	"option4":"La presencia de Fisura de labio y paladar hendido se atribuye a cualquier factor adverso al medio uterino que entre en contacto con el feto durante el periodo embrionario.",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
 	},
 
+	{"question":"5. La clasificación de Kernahan y Stark consideran el siguiente número de grupos básicos en el cual se fundamenta: ",
+	"option1":"Dos grupos básicos: fisura del paladar primario (labio y premaxila) y fisura del paladar secundario (paladar duro y blando posterior al foramen incisivo).",
+	"option2":"Tres grupos básicos:  fisura de labio, fisura de paladar,  fisura de labio y paladar.",
+	"option3":"Dos grupos básicos: fisura del paladar duro y fisura del paladar blando.",
+	"option4":"Tres grupos básicos: fisura del labio, fisura de paladar duro, fisura del paladar blando.",
+	"type":0,
+	"photo":" ",
+	"justify":" "
+	},
+
+	{"question":"6. Según la clasificación de Veau, ¿cuál es la clase que involucra tanto los paladares blando y duro como el proceso alveolar en un lado del área premaxilar?",
+	"option1":"Clase III",
+	"option2":"Clase I",
+	"option3":"Clase II",
+	"option4":"Clase V",
+	"type":0,
+	"photo":" ",
+	"justify":" "
+	},
+
+	{"question":"7. Según la clasificación de Veau, La clase IV se caracteriza por:",
+	"option1":"Involucrar tanto los paladares blando y duro y continuar a través de alveolos en ambos lados del premaxilar, dejándolo libre y a veces móvil.",
+	"option2":"Involucrar solo el paladar blando.",
+	"option3":"Involucrar los paladares blando y duro, pero no el proceso alveolar.",
+	"option4":"Involucrar tanto los paladares blando y duro como el proceso alveolar en un lado del área premaxilar.",
+	"type":0,
+	"photo":" ",
+	"justify":" "
+	},
+
+	{"question":"8.  A qué tipo de malformación corresponde  la siguiente figura:",
+	"option1":"Fisura de Labio Unilateral, Alvéolo y Paladar Total.",	
+	"option2":"Fisura de labio Bilateral, alveolo y paladar total. ",
+	"option3":"Fisura de paladar blando.",
+	"option4":"Fisura labial unilateral incompleta.",
+	"type":2,
+	"photo":"img/pregunta8.png",
+	"justify":" "	
+	},
+
+	{"question":"9. Según la clasificación de Veau, ¿qué clase de hendidura corresponde a la siguiente imagen y cuales estructuras se encuentran involucradas?",
+	"option1":"Clase II: involucra los paladares blando y duro, pero no el proceso alveolar. ",
+	"option2":"Clase IV: involucra tanto los paladares blando y duro y continúa a través de alveolos en ambos lados del premaxilar, dejándolo libre y a veces móvil. . ",
+	"option3":"Clase III: involucra tanto los paladares blando y duro como el proceso alveolar en un lado del área premaxilar. ",
+	"option4":"Clase II: involucra solo el paladar blando.",
+	"type":2,
+	"photo":"img/pregunta9.png",
+	"justify":" "	
+	},
+
+	{"question":"10. La primera especialidad que tiene contacto con el recién nacido con labio leporino y paladar hendido es:",
+	"option1":"Ginecobstetricia",	
+	"option2":"Cirujano plástico",
+	"option3":"Fonoaudiología",
+	"option4":"Odontología",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+
+	{"question":"11. ¿Cuál es el papel que juega en odontopediatría antes de la cirugía para cerrar el paladar hendido?",
+	"option1":"Deberá tomar impresiones y radiografías cefálicas laterales, además  realizar placas obturadoras.",
+	"option2":"Determinar anomalías dentaras y maloclusiones.",
+	"option3":"Promoción y prevención de caries.",
+	"option4":"Disminución de riesgo de enfermedad periodontal.",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+
+	{"question":"12. ¿Cuál es el momento sistémico en el cual se pueden iniciar las cirugías?",
+	"option1":"10 semanas de vida extrauterina, 4,5kg (10 libras) de peso y 10 gramos de hemoglobina.",
+	"option2":"Al nacer el niño.",
+	"option3":"Cuando el niño tiene más de 3 meses de vida. ",
+	"option4":"Al cumplir el año.",
+	"type":0,
+	"photo":" ",
+	"justify":" "
+	},
+	
+	{"question":"13.¿Qué se debe promover por parte de fonoaudiología antes del cierre del paladar?",
+	"option1":"desarrollo normal de lenguaje, promover uso fácil del lenguaje, promover sus primeras palabras al primer año de edad y promover oraciones cortas a los dos años de edad.",
+	"option2":"Estimulación de los padres mediante ejercicios con palabras que requieran el uso del paladar.",
+	"option3":"Promover actividades que requieran soplar hacia afuera la boca, cuando pueda pronunciar palabras con P o B",
+	"option4":"Estimular a los niños que digan nombres de dibujos que empiecen con las letras B,P,F y T, después palabras con las consonantes D, V, K,G, y palabras con S y CH.",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+
+	{"question":"14. La clasificación de Kernahan y Stark establece dos grupos basicos: fisuradel paladar primario (labio y premaxila) y fisura del paladar secundario (paladar duro y blando posterior al foramen incisivo).",
+	"option1":"Verdadero", 
+	"option2":"Falso", 
+	"option3":" ",
+	"option4":" ",
+	"type":1,
+	"photo":" ",
+	"justify":" "		
+	},
+	
+	{"question":"15. ¿La ruptura del labio y del paladar conlleva dificultades para la succión, deglución, fonación, masticación y audición que se manifiestan ya desde el nacimiento?", "option1":"Verdadero",
+	"option2":"Falso", 
+	"option3":" ",
+	"option4":" ",
+	"type":1,
+	"photo":" ",
+	"justify":"El sistema estomatognático, como cualquier otro sistema funcional, necesita una integridad estructural para cumplir con las necesidades morfológicas y de función del ser humano."	
+	},
+	
+	{"question":"16. Labio y Paladar Hendido son defectos al nacimiento producidos por la correcta fusión de los tejidos que darán origen al labio superior y al paladar durante las primeras etapas del embarazo, precisamente entre la 3a y 5a semanas del desarrollo fetal (gestación).", 
+	"option1":"Falso", 
+	"option2":"Verdadero", 
+	"option3":" ",
+	"option4":" ",
+	"type":1,
+	"photo":" ",
+	"justify":"El Labio Hendido y el Paladar Hendido, son malformaciones congénitas causadas por un desarrollo facial anormal antes del nacimiento, por esta razón se les considera 'Defectos del Nacimiento'. El desarrollo facial de un bebé toma forma durante las primeras 6 a 8 semanas de embarazo."	
+	},
+
+	{"question":"17. Según VEAU, la clasificación _______________ involucra los paladares blando y duro, pero no el proceso alveolar.",
+	"option1":"Clase II",
+	"option2":"Clase I",
+	"option3":"Clase III",
+	"option4":"Clase IV",
+	"type":0,
+	"photo":" ",
+	"justify":" "		
+	},
+	
+	{"question":"18. La fisura labial se debe a una falla entre los procesos ____________ y _______________ que crecen, contactan y se fusionan de acuerdo a una información precisa en tiempo y posición, para dar origen a una lámina epitelial media que se transforma en tejido mesenquimático.",
+	"option1":"frontonasal y maxilar",	
+	"option2":"nasal lateral y maxila",
+	"option3":"palatino mediano y maxilar",
+	"option4":"palatino lateral y maxilar",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+	
+	{"question":"19. El tratamiento de las deformidades de labio y paladar hendidos debe ser realizado por un ________________ e iniciarse tan pronto se realice el ___________ en el primer examen clínico del recién nacido en la sala de parto.",
+	"option1":"equipo multidisciplinario - diagnóstico",
+	"option2":"odontólogo - diagnóstico",
+	"option3":"equipo de cirujanos - interrogatorio",
+	"option4":"equipo de pediatras - interrogatorio",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	},
+	
+	{"question":"20. El paciente con fisura labial y paladar hendido necesita cirugías primarias y Secundarias. Entre las Primarias se encuentran ______________o cierre del labio y ____________  o cierre del paladar.",
+	"option1":"Queilorrafia y palatorrafia.", "option2":" ","option3":" ","option4":" ",
+	"type":0,
+	"photo":" ",
+	"justify":" "	
+	}
 ]
-}
+}	
