@@ -18,6 +18,8 @@ var score=0;
 			questionBank[i][2]=data.quizlist[i].option2;
 			questionBank[i][3]=data.quizlist[i].option3;
 			questionBank[i][4]=data.quizlist[i].option4;
+			questionBank[i][5]=data.quizlist[i].type;
+			questionBank[i][6]=data.quizlist[i].photo;
 		}
 		 numberOfQuestions=questionBank.length; 
 		
@@ -30,19 +32,45 @@ var score=0;
 
 
 function displayQuestion(){
- var rnd=Math.random()*3;
-rnd=Math.ceil(rnd);
+ var rnd=0;
  var q1;
  var q2;
  var q3;
  var q4;
+ var ty=0;
+ var ph;
 
+ty=questionBank[questionNumber][5];
+ph=questionBank[questionNumber][6];
 
+if(ty==0){
+//multiple options
+rnd=Math.random()*3;
+rnd=Math.ceil(rnd);
 if(rnd==1){q1=questionBank[questionNumber][1];q2=questionBank[questionNumber][2];q3=questionBank[questionNumber][3];q4=questionBank[questionNumber][4];}
 if(rnd==2){q2=questionBank[questionNumber][1];q3=questionBank[questionNumber][2];q4=questionBank[questionNumber][3];q1=questionBank[questionNumber][4];}
 if(rnd==3){q3=questionBank[questionNumber][1];q4=questionBank[questionNumber][3];q1=questionBank[questionNumber][2];q2=questionBank[questionNumber][4];}
 
 $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</div><div id="1" class="option">'+q1+'</div><div id="2" class="option">'+q2+'</div><div id="3" class="option">'+q3+'</div><div id="4" class="option">'+q4+'</div>');
+}
+if(ty==1){
+//true,false
+rnd=Math.random()*2;
+rnd=Math.ceil(rnd);
+if(rnd==1){q1=questionBank[questionNumber][1];q2=questionBank[questionNumber][2];}
+if(rnd==2){q2=questionBank[questionNumber][1];q1=questionBank[questionNumber][2];}
+$(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</div><div id="1" class="option">'+q1+'</div><div id="2" class="option">'+q2+'</div>');
+}
+if(ty==2){
+//multiple options photo
+rnd=Math.random()*3;
+rnd=Math.ceil(rnd);
+if(rnd==1){q1=questionBank[questionNumber][1];q2=questionBank[questionNumber][2];q3=questionBank[questionNumber][3];q4=questionBank[questionNumber][4];}
+if(rnd==2){q2=questionBank[questionNumber][1];q3=questionBank[questionNumber][2];q4=questionBank[questionNumber][3];q1=questionBank[questionNumber][4];}
+if(rnd==3){q3=questionBank[questionNumber][1];q4=questionBank[questionNumber][3];q1=questionBank[questionNumber][2];q2=questionBank[questionNumber][4];}
+
+$(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</div><div class="questionPhoto"><img src="'+ph+'"></div><div id="1" class="option">'+q1+'</div><div id="2" class="option">'+q2+'</div><div id="3" class="option">'+q3+'</div><div id="4" class="option">'+q4+'</div>');
+}
 
  $('.option').click(function(){
   if(questionLock==false){questionLock=true;	
