@@ -299,6 +299,11 @@
   color: white;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 img.demo {
   opacity: 0.6;
 }
