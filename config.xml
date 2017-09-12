@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "co.edu.unicartagena.canceroral"
+    id          = "co.edu.unicartagena.flap"
     versionCode = "10"
     version     = "1.0.0" >
 
@@ -14,7 +14,7 @@
   </description>
 
   <author href="http://flap.unicartagena.edu.co" email="flap@unicartagena.edu.co">
-     Universidad de Cartagena
+     Universidad de Cartagena - Enrique Díaz Infante Rendón
   </author>
   <platform name="android">
       <icon src="icon.png" width="180" height="180" />
