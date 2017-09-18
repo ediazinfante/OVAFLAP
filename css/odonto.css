@@ -22,6 +22,10 @@
 		p { font-family: "Segoe UI",Arial,sans-serif;
 		    text-align: justify;
 		}
+		li {
+			word-wrap: break-word;
+			word-break: break-all;
+		}
 		
 		.row::after {
 			content: "";
